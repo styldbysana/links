@@ -1,0 +1,16 @@
+{
+  "looks": [
+    {
+      "id": "ethnic-edit-001",
+      "title": "3 suits I'm obsessed with ♡",
+      "category": "Ethnic edit",
+      "description": "Three dreamy traditional suit sets from our latest reel. Tap each piece to shop the exact listing.",
+      "cover": "assets/placeholder.svg",
+      "products": [
+        {"name": "Traditional suit 1", "store": "Amazon", "image": "assets/placeholder.svg", "url": ""},
+        {"name": "Traditional suit 2", "store": "Amazon", "image": "assets/placeholder.svg", "url": ""},
+        {"name": "Traditional suit 3", "store": "Amazon", "image": "assets/placeholder.svg", "url": ""}
+      ]
+    }
+  ]
+}
