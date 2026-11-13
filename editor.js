@@ -306,11 +306,9 @@ function catalogJSON() {
       throw new Error('Invalid look details.');
     }
 
-    for (const product of look.products) {
-      if (product.url && !/^https:\/\//i.test(product.url)) {
-        throw new Error('Affiliate links must begin with https://');
-      }
-    }
+    if (product.url && !product.url.startsWith('https://')) {
+  throw new Error('Product URLs must begin with https://');
+}
   }
 
   return JSON.stringify({ looks }, null, 2) + '\n';
